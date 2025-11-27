@@ -1,9 +1,9 @@
 import sys
 if len(sys.argv)==4:
   script_name=sys.arvg[0]
-principal = float(sys.argv[1])
-rate = float(sys.argv[2])
-time = float(sys.argv[3])
+principal = sys.argv[1]
+rate = sys.argv[2]
+time =sys.argv[3]
 else:
   simple_interest =(principal * rate * time)/100
   print("Principal Amount:",principal)
