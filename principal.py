@@ -1,7 +1,6 @@
 import sys
-if len len(sys.argv) !=4:
-   print("Usage: python simple_interest.py <principal> <rate> <time>")
-     sys.exit()
+if len len(sys.argv)==4:
+  script_name=sys.arvg[0]
 principal = float(sys.argv[1])
 rate = float(sys.argv[2])
 time = float(sys.argv[3])
